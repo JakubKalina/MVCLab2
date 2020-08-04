@@ -39,3 +39,6 @@ E:\Jakub\Documents\Programowanie\CodeTeam\Szkolenie DotNet Core\Lab 3 - Wstęp d
 E:\Jakub\Documents\Programowanie\CodeTeam\Szkolenie DotNet Core\Lab 3 - Wstęp do MVC\CarManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetAllCars.cshtml.g.cs
 E:\Jakub\Documents\Programowanie\CodeTeam\Szkolenie DotNet Core\Lab 3 - Wstęp do MVC\CarManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetListOfModels.cshtml.g.cs
 E:\Jakub\Documents\Programowanie\CodeTeam\Szkolenie DotNet Core\Lab 3 - Wstęp do MVC\CarManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetCarByModel.cshtml.g.cs
+E:\Jakub\Documents\Programowanie\CodeTeam\Szkolenie DotNet Core\Lab 3 - Wstęp do MVC\CarManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\ContactForm.cshtml.g.cs
+E:\Jakub\Documents\Programowanie\CodeTeam\Szkolenie DotNet Core\Lab 3 - Wstęp do MVC\CarManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\Test.cshtml.g.cs
+E:\Jakub\Documents\Programowanie\CodeTeam\Szkolenie DotNet Core\Lab 3 - Wstęp do MVC\CarManager\obj\Debug\netcoreapp3.1\Razor\Views\Home\UpdateCar.cshtml.g.cs

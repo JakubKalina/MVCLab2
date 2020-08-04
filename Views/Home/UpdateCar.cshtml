@@ -1,0 +1,9 @@
+﻿@model CarManager.Models.CarViewModel
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(c => c.Manufacturer)
+    @Html.EditorFor(c => c.Manufacturer)
+
+    <input type="submit" value="Zapisz" />
+}

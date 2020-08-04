@@ -19,18 +19,6 @@ namespace CarManager.Controllers
         private readonly ILogger<HomeController> _logger;
 
 
-        // Wytłumaczyć czym są Header i body i częsci requestów
-        // Wykorzystać zewnętrzne api i zrobić endpoint zwracający z niego dane i wykorzystać zapytania asynchroniczne
-        // Wytłumaczyć i zastosować różne kody HTTP
-
-        // Dodać endpoint do edycji samochodów i ich usuwania
-        // Eksport listy do zewnętrznej klasy statycznej aby dane nie były automatycznie resetowane
-
-        // Zrobić wstęp do GIT'a bazując na przesłanej notatce
-
-
-
-
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -84,6 +72,38 @@ namespace CarManager.Controllers
         {
             CarViewModel car = this.allCars.Where(a => a.Model.ToLower() == model.ToLower()).FirstOrDefault();
             return View(car);
+        }
+
+
+        [HttpGet]
+        public IActionResult ContactForm()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult ContactForm(ContactFormViewModel userData)
+        {
+            string welcome = "Witaj: " + userData.FirstName + " " + userData.LastName;
+            ViewBag.Text = welcome;
+
+            ViewBag.Kotek = "Maurycy";
+
+            return View("Test");
+        }
+
+
+        [HttpGet]
+        public IActionResult UpdateCar()
+        {
+            var car = allCars.ElementAt(0);
+            return View(car);
+        }
+
+        [HttpPost]
+        public IActionResult UpdateCar(CarViewModel car)
+        {
+            return View();
         }
 
 

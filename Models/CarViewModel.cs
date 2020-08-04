@@ -8,6 +8,12 @@ namespace CarManager.Models
     public class CarViewModel
     {
 
+        
+        public CarViewModel()
+        {
+
+        }
+
         /// <summary>
         /// Konstruktor z parametrami
         /// </summary>
@@ -22,6 +28,7 @@ namespace CarManager.Models
             this.Price = price;
             this.Photo = photo;
         }
+
 
 
         public string Model { get; set; }
