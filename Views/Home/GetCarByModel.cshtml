@@ -1,0 +1,13 @@
+﻿@model CarManager.Models.CarViewModel
+
+<div>
+
+    <h2>Model: @Model.Model</h2>
+
+    <h4>Marka: @Model.Manufacturer</h4>
+
+    <h4>Cena: @Model.Price</h4>
+
+    <img src="@Url.Content(Model.Photo)" alt="@Model.Model" />
+
+</div>

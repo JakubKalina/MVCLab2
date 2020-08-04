@@ -1,0 +1,17 @@
+﻿@model List<CarManager.Models.CarViewModel>
+
+@foreach(var Car in Model)
+{
+    <div>
+        <h2>
+            @Car.Model
+        </h2>
+
+        <h4>Producent: @Car.Manufacturer</h4>
+
+        <h4>Cena: @Car.Price</h4>
+
+        <img src="@Url.Content(Car.Photo)" alt="@Car.Model" />
+
+    </div>
+}
